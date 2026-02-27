@@ -1,0 +1,11 @@
+{
+  "users": [
+    { "id": 1, "name": "John Doe", "email": "john@example.com", "photo": "images/avatar.jpg" },
+    { "id": 2, "name": "Jane Smith", "email": "jane@example.com", "photo": "images/avatar.jpg"},
+    { "id": 3, "name": "Alex Sanches", "email": "alex@example.com", "photo": "images/avatar.jpg"},
+    { "id": 4, "name": "Joe Lynn", "email": "joe@example.com", "photo": "images/avatar.jpg"},
+    { "id": 5, "name": "Peter X", "email": "peter@example.com", "photo": "images/avatar.jpg"},
+    { "id": 6, "name": "Ann Kras", "email": "ann@example.com", "photo": "images/avatar.jpg"},
+    { "id": 7, "name": "Lee Wong", "email": "lee.w@example.com", "photo": ""}
+  ]
+}
