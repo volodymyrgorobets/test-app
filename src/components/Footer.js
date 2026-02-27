@@ -21,7 +21,7 @@ export default function render() {
                     <div className="footer-menu-section">
                         <div className="footer-menu-title">Resources</div>
                             <div className="footer-menu-links">
-                            <a className="footer-menu-link" href="">FAQ</a>
+                            <a className="footer-menu-link" href="/faq">FAQ</a>
                             <a className="footer-menu-link" href="">Blog</a>
                             <a className="footer-menu-link" href="">Safety Guidelines</a>
                             <a className="footer-menu-link" href="">Box Locations</a>
