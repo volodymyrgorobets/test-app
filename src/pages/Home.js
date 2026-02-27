@@ -8,7 +8,7 @@ export default function Home() {
                     <div className="home-top-text">
                         <h1>Rent Professional Tools. Build Your Dreams. Not Debt.</h1>
                         <p>Keep your budget intact. Minimize equipment costs, maximize your results.</p>
-                        <a className="btn-gray" href="">Go to rent</a>
+                        <a className="btn-gray" href="/catalog">Go to rent</a>
                     </div>
                     <div className="home-top-img">
                         <img src="assets/images/robot-circle.png" />

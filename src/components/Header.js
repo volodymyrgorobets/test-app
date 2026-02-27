@@ -5,21 +5,19 @@ export default function render() {
     return (
         <div className="navbar-wrapper">
             <div className="navbar">
-                <div className="main-logo">
-                    <a href="/" alt="">
-                        <img src={logo_url} />
-                    </a>
+                <a className="main-logo" href="/" alt="">
+                    <img src={logo_url} />
                     <span>ToolShare</span>
-                </div>
+                </a>
                 <nav>
                     <div className="menu-item">
-                        <a href="">Catalog</a>
+                        <a href="/catalog">Catalog</a>
                     </div>
                     <div className="menu-item">
                         <a href="/about">About Us</a>
                     </div>
                     <div className="menu-item">
-                        <a href="">How it Works</a>
+                        <a href="/how-it-works">How it Works</a>
                     </div>
                     <div className="menu-item">
                         <a href="">Support</a>
