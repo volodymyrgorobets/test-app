@@ -2,6 +2,8 @@ import { Outlet, useLocation } from 'react-router-dom';
 import '../assets/css/style.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import Login from '../components/Modals/Login';
+
 
 function MainLayout({props}) {
   let current_location = useLocation();
@@ -16,6 +18,8 @@ function MainLayout({props}) {
             <Outlet />
         </div>
         <Footer />
+        
+        <Login />
     </div>
   );
 }

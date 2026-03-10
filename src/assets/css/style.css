@@ -236,17 +236,18 @@ footer {
     height: 100%;
     background: rgba(190, 190, 190, 0.2);
     z-index: 9;
-    display: flex;
+    display: none;
     align-items: flex-start;
     justify-content: center;
     padding-top: 40px;
     backdrop-filter: blur(2px);
 }
+.mpdal.in{
+    display: flex;
+}
 
 .modal-content {
-    width: 400px;
-    height: 500px;
-    background: #fff;
+    
 }
 
 .home-top {
@@ -863,7 +864,7 @@ h2{
   font-size: 14px;
   margin-bottom: 25px;
 }
-
+/*
 .modal-card {
     background-color: white;
     width: 360px;
@@ -949,7 +950,7 @@ h2{
     height: 24px;
 }
 
-
+*/
 .login-card {
     width: 350px;
     text-align: center;
