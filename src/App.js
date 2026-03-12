@@ -8,6 +8,7 @@ import Catalog from './pages/Catalog';
 import FAQ from './pages/FAQ';
 import ProductPage from './pages/ProductPage';
 
+
 function App() {
   return (
     <BrowserRouter>

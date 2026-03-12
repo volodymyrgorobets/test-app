@@ -1,7 +1,7 @@
 import {logo_url} from '../Settings';
 import {Link} from 'react-router-dom';
 
-export default function render() {
+export default function render({showLogin}) {
     return (
         <div className="navbar-wrapper">
             <div className="navbar">
@@ -24,7 +24,7 @@ export default function render() {
                     </div>
                 </nav>
                 <div className="account-menu">
-                    <a href="#" className="login-btn">
+                    <a href="#" className="login-btn"  onClick={showLogin}>
                         <img src="assets/images/login-icon.png" />
                     </a>
                 </div>
