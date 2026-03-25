@@ -1227,6 +1227,13 @@ border-radius: 10px;
     color:#444;
 }
 
+.error-message {
+    color:red;
+}
+
+.success-message{
+color:green;
+}
 
 
 

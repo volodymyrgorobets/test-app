@@ -81,6 +81,6 @@ export default function product(){
                  </div>
                 </div>
             </div>
-            
+
                )
             }
